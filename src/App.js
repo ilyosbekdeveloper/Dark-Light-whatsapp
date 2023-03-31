@@ -17,7 +17,7 @@ const App = (props) => {
   }
 
   return (
-    <>
+    <div className='App'>
     <div className={`main ${theme} modeDiv`}>
       <button onClick={()=> changeMode()} className={`main ${theme} themeModeBTn`}>
 
@@ -32,7 +32,7 @@ const App = (props) => {
         <Chatlist/>
         <ButtonLinks/>
       </Watsapp.Provider>
-    </>
+    </div>
   );
 }
 
